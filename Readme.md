@@ -28,6 +28,8 @@ CLI
 	                     ex: nyam "I don't require a switch"
 	-s, --setup       It will start the setup/auth process
 	                     ex: nyam
+	-v, --verbose     Display more execution data, including errors
+	                     ex: nyam -s -v
 	                     
 	Coming Soon:
 	
@@ -41,21 +43,26 @@ CLI
 Setup your Yammer account w/ nyam
 -------------------------------------
 
-Log on to Yammer and create a new application
+You can you Geekli.st application keys, or log on to Yammer and get your own app keys.
 
-https://www.yammer.com/<DOMAIN>/client_applications/new
+	https://www.yammer.com/<DOMAIN>/client_applications/new
 	
-Bring the new keys inside lib/config.js
+To override nyam with your own app keys create the following file:
 
-Or you can use Geekli.st's app keys and just continue on with the setup.
+	~/.nyamkeys.json
+	
+and add the following
 
-Start the setup process
+	{
+		"app_consumer_key": "<CONSUMER KEY HERE>",
+		"app_consumer_secret": "<CONSUMER SECRET HERE>"
+	}
+
+NOW, you can start the setup process
 
 	$nyam -s
 	
-follow the instructions and then create credentials.json 
-
-    $nyam -l
+Enjoy! 
 
 
 	
