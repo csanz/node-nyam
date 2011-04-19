@@ -36,7 +36,9 @@ Log on to Yammer and create a new application
 
 https://www.yammer.com/<DOMAIN>/client_applications/new
 	
-Or you can use Geekli.st's app keys and just continue on with the setup.  Make sure you rename config.json.sample to config.json
+Bring the new keys inside config.json
+
+Or you can use Geekli.st's app keys and just continue on with the setup.
 
 Start the setup process
 
