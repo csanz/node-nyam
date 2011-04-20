@@ -28,8 +28,10 @@ CLI
 	                     ex: nyam "I don't require a switch"
 	-s, --setup       It will start the setup/auth process
 	                     ex: nyam
-	-v, --verbose     Display more execution data, including errors
-	                     ex: nyam -s -v
+	--verbose         Display more execution data, including errors
+	                     ex: nyam -s --verbose
+	-v, --version     Display version
+	                     ex: nyam -v
 	                     
 	Coming Soon:
 	
@@ -49,7 +51,7 @@ You can you Geekli.st application keys, or log on to Yammer and get your own app
 	
 To override nyam with your own app keys create the following file:
 
-	~/.nyamkeys.json
+	~/.nyam_keys
 	
 and add the following
 

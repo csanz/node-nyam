@@ -8,6 +8,10 @@
   * Updated config constructor @Csanz
   * Fixed configs path issues for npm @TechWraith
 
+TODO
+  
+  * Move cli.js to the root (path issues)
+
  0.0.5 / 2011-03-18
 ==================
 
