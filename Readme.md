@@ -40,6 +40,8 @@ CLI
 	                   Used alone, it will list groups that you can post to.
 	-rt, --realtime    A flag you can set to get realtime updates
 	-t,  --topic       Getting messages from a certain topic
+	-f,  --search      Search for tags and returns 10 items
+	-u,  --users       Lists all users in the network
 	
 
 Setup your Yammer account w/ nyam
