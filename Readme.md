@@ -70,7 +70,6 @@ For developers
 
   * Fork this project
   * Clone your fork
-  * Run 'npm bundle'
   * Check out: http://developer.yammer.com/api/
   * Add some code
   * Test!
