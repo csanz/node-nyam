@@ -10,10 +10,6 @@ With [npm](http://github.com/isaacs/npm):
 
     npm install nyam
 
-Clone this project:
-
-    git clone http://github.com/csanz/nyam.git
-
 CLI
 ---
 
@@ -32,6 +28,7 @@ CLI
                          ex: nyam -s --verbose
     -v, --version     Display version
                          ex: nyam -v
+    -f,  --find       Find + search mechanism 
                      
     Coming Soon:
 
@@ -67,3 +64,21 @@ NOW, you can start the setup process
     $nyam -s
 
 Enjoy! 
+
+For developers
+-------------------------------------
+
+  * Fork this project
+  * Clone your fork
+  * Run 'npm bundle'
+  * Check out: http://developer.yammer.com/api/
+  * Add some code
+  * Test!
+  * Send pull request
+
+Also check out our issues area for things people are requesting or bugs (not many right now hehe) 
+
+Don't be shy! :-)
+
+
+

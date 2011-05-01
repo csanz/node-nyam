@@ -1,16 +1,17 @@
 0.0.6 / 2011-03-19
 ==================
 
+  * Added search support. 
+
+0.0.6 / 2011-03-19
+==================
+
   * Added the ability to override the default app keys capabilities (see readme) @Csanz
   * Added colors support @TechWraith
   * Added utils static class and filled it up with misc utils @Csanz
   * Added verbose switch @Csanz
   * Updated config constructor @Csanz
   * Fixed configs path issues for npm @TechWraith
-
-TODO
-  
-  * Move cli.js to the root (path issues)
 
  0.0.5 / 2011-03-18
 ==================
