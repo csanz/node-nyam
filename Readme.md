@@ -29,6 +29,7 @@ CLI
     -v, --version     Display version
                          ex: nyam -v
     -f,  --find       Find + search mechanism 
+                         ex: nyam -f "todo"
                      
     Coming Soon:
 
