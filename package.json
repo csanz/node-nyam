@@ -10,7 +10,7 @@
     }],
     "repository": {
       "type": "git",
-      "url": "http://github.com/csanz/nyam.git" 
+      "url": "http://github.com/csanz/nyam.git"
     },
     "engines":      {
       "node":       ">=0.4.0"
@@ -19,6 +19,7 @@
         "optimist": ">= 0.1.5"
       , "oauth": "0.9.0"
       , "colors": "*"
+      , "promptly": "~0.2.0"
     },
     "main" : "./lib/nyam",
     "bin":          {
