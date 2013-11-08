@@ -8,7 +8,7 @@ Installation
 
 With [npm](http://github.com/isaacs/npm):
 
-    npm install nyam
+    npm install nyam -g
 
 CLI
 ---
