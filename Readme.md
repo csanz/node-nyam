@@ -1,7 +1,7 @@
 nyam
 =====
 
-nyam is a node.js CLI tool for easy posting and reading of Yammer feeds. 
+nyam is a node.js CLI tool for easy posting and reading of Yammer feeds. This is forked from https://github.com/csanz/node-nyam for fixing bug of process.binding() method.
 
 Installation
 ------------
@@ -63,6 +63,10 @@ and add the following
 NOW, you can start the setup process
 
     $nyam -s
+
+Open Navigation URL in browser. If you are not login with yammer first then open it.
+
+Authorize App, copy Authorization code and paste it on console, press enter key.
 
 Enjoy! 
 
