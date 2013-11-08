@@ -68,15 +68,20 @@ Open Navigation URL in browser. If you are not login with yammer first then open
 
 Authorize App, copy Authorization code and paste it on console, press enter key.
 
+On success you can see access token detail on ~/.config.json
+
+You can use CLI for see all detail
+
+    $nyam --verbose
+
 Enjoy! 
 
 For developers
 -------------------------------------
-
   * Fork this project
   * Clone your fork
-  * Check out: http://developer.yammer.com/api/
-  * Add some code
+  * Check out: https://developer.yammer.com/restapi/
+  * Modify some code ad per you need.
   * Test!
   * Send pull request
 
